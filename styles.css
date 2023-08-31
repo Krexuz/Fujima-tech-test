@@ -1,7 +1,28 @@
-* {
+
+body{
     margin: 0;
-    padding: 0;    
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 0 13%;
+    
+}
+
+.header ul {
+    display: flex;
+    gap: 25px;
+}
+
+.hero-section {
+    display: flex;
+}
+
+
+}
 
 
