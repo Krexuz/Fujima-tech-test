@@ -1,28 +1,26 @@
-
-body{
+body {
     margin: 0;
-}
-
-.header {
+    height: 100vh;
+    overflow: hidden;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(54, 54, 54);
-    color: white;
-    padding: 0 13%;
-    
+    align-items: center;
 }
 
-.header ul {
+.header, 
+.footer {
     display: flex;
-    gap: 25px;
+    justify-content: space-between;
+    background-color: rgb(117, 116, 116);
+}
+
+ul {
+    display: flex;
 }
 
 .hero-section {
     display: flex;
+    background-color: rgb(117, 116, 116);
+    color: white;
 }
-
-
-}
-
-
