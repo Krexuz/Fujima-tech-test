@@ -87,3 +87,15 @@ img {
     font-size: 18px;
     margin-bottom: 40px;
 }
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #b4cef8;
+}
