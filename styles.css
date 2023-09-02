@@ -53,7 +53,7 @@ ul {
     justify-content: center;
     width: 100wv;
     color: white;
-    margin-top: 100px;
+    margin-top: 200px;
     flex-wrap: wrap;
     gap: 130px;
     padding-bottom: 50px;
@@ -109,6 +109,8 @@ button:hover {
     display: flex;
     gap: 40px;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .picture-one, .picture-two, .picture-three, .picture-four {
@@ -134,4 +136,53 @@ button:hover {
     width: 200px;
     font-size: 18px;
     margin-top: 8px;
+}
+
+.gray-container {
+    height: 430px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.gray-one {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+}
+
+.gray-two {
+    color: #1f2937;
+    font-size: 28px;
+    margin-left: 450px;
+}
+
+.white-box {
+    height: 300px;
+    width: 100wv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    width: 800px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal-left {
+    color: white;
+}
+
+.dif-button {
+    border: solid 2px white;
 }
