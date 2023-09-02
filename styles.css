@@ -1,30 +1,20 @@
 * {
     margin: 0;
+    max-width: 1920px;
 }
 
-
-
 body {
-    height: 100%;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    justify-content: space-between;
     
 
-}
-
-
-
-.box {
-    background-color: #1f2937;
-    width: 100wv;
-  
 }
 
 .logo {
     color: white;
     font-size: 24px;
+    padding-right: 90px;
 }
 
 .nav {
@@ -42,37 +32,41 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100wv;
+    max-width: 1920px;
+    background-color: #1f2937;
+    
 }
-
-
-
 
 .hero-content {
     display: flex;
     justify-content: center;
-    width: 100wv;
+    align-items: center;
+    max-width: 1920px;
+    height: 400px;
     color: white;
-    margin-top: 200px;
+    padding: 0;
+    background-color: #1f2937;
     flex-wrap: wrap;
-    gap: 130px;
-    padding-bottom: 50px;
     
     
-    
-
 }
 
 img {
-    width: 650px;
+
     margin: 0;
-    flex-shrink: 1;
+    width: 550px;
+   
+
 }
 
 .hero-left {
     max-width: 500px;
     margin: 0;
-    width: 2750px;
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
 
 }
 
@@ -80,7 +74,6 @@ img {
     font-size: 48px;
     font-weight: bolder;
     margin-bottom: 30px;
-
 
 }
 
@@ -102,10 +95,8 @@ button:hover {
     background-color: #b4cef8;
 }
 
-
-
 .mid-container {
-    width: 100vw;
+    max-width: 1920px;
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -113,7 +104,10 @@ button:hover {
     margin-bottom: 100px;
 }
 
-.picture-one, .picture-two, .picture-three, .picture-four {
+.picture-four,
+.picture-one,
+.picture-three,
+.picture-two {
     width: 200px;
     height: 200px;
     border: solid #3882f6 3px;
@@ -125,11 +119,11 @@ button:hover {
 .random-info {
     font-size: 36px;
     font-weight: bolder;
-    color:#1f2937 ;
+    color: #1f2937;
     display: flex;
     justify-content: center;
     margin: 80px;
-} 
+}
 
 .pic-subtext {
     text-align: center;
@@ -145,7 +139,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
+    
 }
 
 .gray-one {
@@ -163,7 +157,7 @@ button:hover {
 
 .white-box {
     height: 300px;
-    width: 100wv;
+    max-width: 1920px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,11 +184,10 @@ button:hover {
 
 .footer-container {
     height: 100px;
-    width: 100wv;
+    max-width: 1920px;
     background-color: #1f2937;
     display: flex;
     color: #e5e7eb;
     justify-content: center;
     align-items: center;
 }
-
